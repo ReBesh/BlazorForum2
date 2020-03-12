@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
-namespace BlazorForum.Models
+namespace BlazorApp1.Models
 {
     public class ForumPost
     {

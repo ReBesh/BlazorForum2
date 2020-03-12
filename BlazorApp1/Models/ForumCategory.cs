@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace BlazorForum.Models
+namespace BlazorApp1.Models
 {
     public class ForumCategory
     {
