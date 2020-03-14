@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using BlazorForum.Data;
 
-namespace BlazorApp1.Data
+namespace BlazorApp1.Data.Repository
 {
     public class ForumTopics
     {

@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BlazorForum.Data
 {
-    public class ApplicationDbContext : IdentityDbContext
+    public class ApplicationDbContext : DbContext
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
@@ -27,5 +27,9 @@ namespace BlazorForum.Data
         public DbSet<Configuration> Configuration { get; set; }
 
         public DbSet<SitePage> Pages { get; set; }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
     }
 }

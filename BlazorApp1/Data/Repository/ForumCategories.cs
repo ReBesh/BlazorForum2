@@ -7,7 +7,7 @@ using BlazorApp1.Models;
 using BlazorForum.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorApp1.Data
+namespace BlazorApp1.Data.Repository
 {
     public class ForumCategories
     {
