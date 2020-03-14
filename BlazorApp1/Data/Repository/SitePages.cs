@@ -8,7 +8,7 @@ using BlazorApp1.Models;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace BlazorForum.Data.Repository
+namespace BlazorApp1.Data.Repository
 {
     public class SitePages
     {
