@@ -5,7 +5,7 @@ using BlazorApp1.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorForum.Data
+namespace BlazorApp1.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -27,6 +27,7 @@ namespace BlazorForum.Data
         public DbSet<Configuration> Configuration { get; set; }
 
         public DbSet<SitePage> Pages { get; set; }
+
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

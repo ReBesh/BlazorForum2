@@ -9,8 +9,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace BlazorApp1.Data.Repository
 {
-
-
     public class Forums
     {
         private readonly ApplicationDbContext _context;
