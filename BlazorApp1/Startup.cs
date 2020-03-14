@@ -15,7 +15,6 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using BlazorApp1.Areas.Identity;
 using BlazorApp1.Data;
-using BlazorForum.Data;
 
 namespace BlazorApp1
 {

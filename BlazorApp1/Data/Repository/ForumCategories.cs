@@ -4,7 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BlazorApp1.Models;
-using BlazorForum.Data;
 using Microsoft.EntityFrameworkCore;
 
 namespace BlazorApp1.Data.Repository
