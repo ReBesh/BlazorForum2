@@ -5,7 +5,7 @@ using BlazorApp1.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace BlazorApp1.Data
+namespace BlazorForum.Data
 {
     public class ApplicationDbContext : IdentityDbContext
     {
@@ -14,11 +14,18 @@ namespace BlazorApp1.Data
         {
         }
 
-        public DbSet<Forum> Forums { get; set; }
         public DbSet<ForumPost> ForumPosts { get; set; }
 
         public DbSet<ForumTopic> ForumTopics { get; set; }
 
         public DbSet<ForumCategory> ForumCategories { get; set; }
+
+        public DbSet<Forum> Forums { get; set; }
+
+        public DbSet<Theme> Themes { get; set; }
+
+        public DbSet<Configuration> Configuration { get; set; }
+
+        public DbSet<SitePage> Pages { get; set; }
     }
 }
